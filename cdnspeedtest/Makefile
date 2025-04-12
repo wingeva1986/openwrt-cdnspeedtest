@@ -9,7 +9,7 @@ PKG_VERSION:=2.2.6
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/wingeva1986/CloudflareSpeedTest/archive/refs/tags/v2.2.6.tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/wingeva1986/CloudflareSpeedTest/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=9e120c31dadad329b54b5d87047db70bf16b5d3b82c45ccfaac02522cdb92fdf
 
 PKG_LICENSE:=GPL-3.0-only
