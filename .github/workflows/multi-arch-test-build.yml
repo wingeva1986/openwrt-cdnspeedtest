@@ -41,7 +41,7 @@ jobs:
           V: s
 
       - name: Move created packages to project dir
-        run: cp bin/packages/${{ matrix.arch }}/packages_ci/*.ipk . || true
+        run: ls bin/packages/${{ matrix.arch }}/packages_ci  || true
 
       - name: Store packages
         uses: actions/upload-artifact@v4.6.2
